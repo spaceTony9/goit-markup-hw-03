@@ -59,12 +59,17 @@ img {
 .container-header {
     display: flex;
     gap: 332px;
+    padding: 0 15px;
 }
 
 .header-navigation  { 
     display: flex;
-    align-self: flex-start;
+    align-items: center;
     gap: 76px;
+}
+
+.header-navigation-logo-link {
+    margin-right: 76px;
 }
 
 .header-navigation-logo-link span {
