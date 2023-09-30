@@ -95,6 +95,7 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 
 }
 
@@ -108,7 +109,6 @@ img {
 }
 
 .header-navigation-list-item {
-    padding: 24px 0;
 }
 
 .header-navigation-list-item-link
@@ -248,7 +248,9 @@ img {
     margin: -1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     border: 0;
 }
 
@@ -336,7 +338,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .section-team-list-item-para {
