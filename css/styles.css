@@ -50,7 +50,6 @@ img {
 
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding: 24px 0;
 }
 
 .header-navigation {
@@ -59,7 +58,7 @@ img {
 
 .container-header {
     display: flex;
-    padding: 0 15px;
+    padding: 24px 15px;
 }
 
 .header-navigation  { 
@@ -111,7 +110,9 @@ img {
 .header-navigation-list-item {
 }
 
-.header-navigation-list-item-link
+.header-navigation-list-item-link {
+    padding: 24px 0;
+}
 
 .header-navigation-list {
     
