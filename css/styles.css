@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #434455;
@@ -50,7 +50,7 @@ img {
 
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding: 24px;
+    padding: 24px 0;
 }
 
 .header-navigation {
@@ -65,7 +65,7 @@ img {
 .header-navigation  { 
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    
 }
 
 .header-navigation-logo-link {
@@ -121,6 +121,7 @@ img {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-navigation-list-item > a:hover, 
@@ -190,10 +191,10 @@ img {
 }
 
 .container-business-solutins {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .section-business-header {
@@ -203,11 +204,14 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
 }
 
 .section-business-btn {
+    display: block;
+    margin: 0 auto;
     background-color: #4D5AE5;
     color: #FFF;
     font-size: 16px;
@@ -290,8 +294,6 @@ img {
 }
 
 .container-team {
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -358,8 +360,7 @@ img {
 .section-portfolio {}
 
 .container-portfolio { 
-    display: flex;
-    flex-direction: column;
+
 }
 
 .section-portfolio-header {
